@@ -19,7 +19,7 @@ function createButtons(){
        
 
         $.ajax({
-            url: "http://api.giphy.com/v1/gifs/search?q="+ buttonValue +"&api_key=zMoij53dJtaDNLffO8myvY9zd0eITOfI&limit=10",
+            url: "https://api.giphy.com/v1/gifs/search?q="+ buttonValue +"&api_key=zMoij53dJtaDNLffO8myvY9zd0eITOfI&limit=10",
             method: "GET"
         }).then(function(data){
             
